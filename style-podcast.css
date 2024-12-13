@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --fonte-principal: Nunito, regular;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: #1F284D;
+    color: #000000;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    margin-bottom: auto;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* Centraliza os links de navegação */
+}
+
+header {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-height: 40px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* Centraliza o menu de navegação */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 160px;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3054a1;
+}
+
+.botao {
+    background-color: #1F284D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    transition: background-color 0.3s;
+    float: right;
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #3054A1;
+}
+
+
+.banner-podcast {
+    border-radius: 0px 0px 60px 60px;
+    width: 100%;
+}
+
+.solucao {
+    background-color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /* Distribui os itens entre as extremidades */
+    align-items: flex-end;
+    /* Alinha os itens verticalmente no centro */
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+.Logo {
+    width: 15%;
+    padding-left: 30px;
+
+}
+
+.azul {
+    color: #234597;
+}
+
+/*Episodios gravados*/
+
+.podcast3 {
+    background-color: #fff;
+    border-radius: 0 0 70px 70px;
+}
+
+/* Container principal */
+.container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Títulos */
+.main-title3 {
+    font-size: 32px;
+    color: #1a237e;
+    margin-bottom: 16px;
+}
+
+.subtitle3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Grid de cards */
+.podcast-grid3 {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+/* Card individual */
+.podcast-card3 {
+    width: 280px;
+    background: #1a237e;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.podcast-card3:hover {
+    transform: translateY(-5px);
+}
+
+/* Container da imagem */
+.image-container3 {
+    width: 100%;
+    padding: 20px;
+}
+
+.image-container3 img {
+    width: 100%;
+    aspect-ratio: 0;
+    object-fit: cover;
+    border-radius: 8px;
+    background-color: #f0f4ff;
+}
+
+/* Botão */
+.watch-button {
+    display: block;
+    background-color: white;
+    color: #1a237e;
+    text-decoration: none;
+    padding: 12px 24px;
+    margin: 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.watch-button:hover {
+    background-color: #f0f4ff;
+}
+
+/*ASSISTA AGORA*/
+
+/* Container principal */
+.assista-section {
+    padding: 40px;
+    color: white;
+}
+
+/* Wrapper do conteúdo */
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+/* Área do texto */
+.text-podcast {
+    flex: 2;
+    max-width: 600px;
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+}
+
+.text-podcast p {
+    font-size: 24px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Área do botão */
+.cta-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Ícone do microfone */
+.mic-icon {
+    width: 140px;
+    height: 140px;
+}
+
+/* Botão */
+.watch-button {
+    background-color: white;
+    font-size: 24px;
+    color: #234597;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.watch-button:hover {
+    background-color: #f0f4ff;
+}
+
+.watch-button2 {
+    background-color: #fff;
+    font-size: 36px;
+    color: #1F284D;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.watch-button2:hover {
+    background-color: #234597;
+    color: #e4ebf8;
+}
+
+/*Rodapé*/
+
+.footer {
+    background-color: #fff;
+    border-radius: 70px 70px 0 0;
+    padding: 20px 40px;
+    font-family: var(--fonte-principal);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    font-family: var(--fonte-principal);
+}
+
+.nav-menu a {
+    color: #1F284D;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    font-weight: bold;
+    color: #3054A1;
+}
+
+.contact-social {
+    align-items: center;
+    gap: 20px;
+    color: #1F284D;
+    padding-top: 50px;
+}
+
+
+.phone {
+    color: #1F284D;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 15px;
+    gap: 25px;
+    color: #1F284D;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width:430px) {
+    .menu {
+        display: none;
+    }
+
+    .Logo {
+        width: 200px;
+        margin-left: -50px;
+    }
+
+    .banner-podcast {
+        height: 150px;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .text-podcast {
+        text-align: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}

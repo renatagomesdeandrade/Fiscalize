@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --fonte-principal: Nunito, regular;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: #fff;
+    color: #000000;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    margin-bottom: auto;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* Centraliza os links de navegação */
+}
+
+.espacamento {
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-height: 40px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* Centraliza o menu de navegação */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 160px;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3054a1;
+}
+
+.botao {
+    background-color: #1F284D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    transition: background-color 0.3s;
+    float: right;
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #3054A1;
+}
+
+
+.banner-home {
+    border-radius: 0px 0px 60px 60px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /* Distribui os itens entre as extremidades */
+    align-items: flex-end;
+    /* Alinha os itens verticalmente no centro */
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+.Logo {
+    width: 15%;
+    padding-left: 30px;
+
+}
+
+/* quem somos*/
+
+.quem-somos {
+    background-color: #1F284D;
+
+}
+
+.border2 {
+    background-color: #ffffff;
+    border-radius: 0 0 70px 70px;
+}
+
+.azul {
+    color: #234597;
+}
+
+.container1 {
+    max-width: 1440px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    color: #1F284D;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.text {
+    max-width: 60%;
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.texto-pequeno {
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Consultoria {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.button {
+    background-color: #234597;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #003380;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+/*Nossa força*/
+
+.container {
+    display: flex;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 150px;
+}
+
+.borda {
+    border: 2px solid #1F284D;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.borda2 {
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-right: 23px;
+}
+
+/* Seção da imagem */
+.image-section {
+    flex: 1;
+    position: relative;
+}
+
+/* Estilo do quadro da imagem */
+.image-frame {
+    border-radius: 25px;
+}
+
+/* Estilo da imagem */
+.image-frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 12px;
+    margin-left: 12px;
+    margin-top: -19px;
+}
+
+/* Seção do conteúdo */
+.content-section {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Estilos dos títulos */
+
+
+.titulo-força {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.titulo-objetivo {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+/*textos*/
+
+.texto-lista {
+    font-size: 20px;
+    text-align: justify;
+    color: #000000;
+}
+
+.texto-força {
+    font-size: 20px;
+    text-align: justify;
+    color: #000000;
+}
+
+.texto-objetivo {
+    font-size: 20px;
+    text-align: justify;
+    color: #000000;
+}
+
+/*Nossa missao*/
+
+.nossa-missao {
+    background-color: #1F284D;
+}
+
+.title-missao {
+    text-align: center;
+    font-size: 48px;
+    color: #1F284D;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+}
+
+.titulo-missao {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.titulo-visao {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.titulo-valores {
+    font-size: 36px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.texto-missao {
+    font-size: 20px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.texto-visao {
+    font-size: 20px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+.texto-valores {
+    font-size: 20px;
+    text-align: justify;
+    color: #ffffff;
+}
+
+/*Numeros*/
+
+/* Estilo do container principal */
+.stats-container {
+    background-color: #1F284D;
+    /* Cor de fundo azul escuro */
+    color: white;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Container flexível para alinhar os itens */
+.stats-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo do título */
+.stats-title {
+    font-size: 48px;
+    max-width: 40%;
+    font-family: var(--fonte-principal);
+    line-height: 3rem;
+}
+
+/* Container dos números */
+.stats-numbers {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-family: var(--fonte-principal);
+}
+
+/* Estilo de cada item estatístico */
+.stat-item {
+    padding: 0 20px;
+    text-align: left;
+    position: relative;
+}
+
+/* Linha vertical entre os itens */
+.stat-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+    width: 1px;
+    background-color: white;
+}
+
+/* Estilo dos números */
+.number {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: var(--fonte-principal);
+}
+
+/* Estilo do texto descritivo */
+.description {
+    font-size: 24px;
+    opacity: 0.9;
+    font-family: var(--fonte-principal);
+}
+
+/*Clientes*/
+
+.clientes {
+    background-color: #1F284D;
+
+}
+
+.border {
+    background-color: #fff;
+    border-radius: 70px 70px 0 0;
+}
+
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Título */
+.title2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #1F284D;
+}
+
+/* Grid de logos */
+.logo-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+/* Card individual */
+.logo-card {
+    background-color: #E4EBF8;
+    border-radius: 17px;
+    padding: 40px;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease;
+}
+
+.logo-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Imagem dentro do card */
+.logo-card img {
+    max-width: auto;
+    max-height: auto;
+    object-fit: contain;
+}
+
+/* Navegação por pontos */
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #e4ebf8;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: #234597;
+}
+
+/*Rodapé*/
+
+.footer {
+    background-color: #fff;
+    padding: 20px 40px;
+    font-family: var(--fonte-principal);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    font-family: var(--fonte-principal);
+}
+
+.nav-menu a {
+    color: #1F284D;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    font-weight: bold;
+    color: #3054A1;
+}
+
+.contact-social {
+    align-items: center;
+    gap: 20px;
+    color: #1F284D;
+    padding-top: 50px;
+}
+
+
+.phone {
+    color: #1F284D;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+}
+
+.social-icons {
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+    color: #1F284D;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width:430px){
+    .menu {
+        display: none;
+    }
+
+    .Logo {
+        width: 200px;
+        margin-left: -50px;
+    }
+
+    .banner-quem-somos {
+        height: 175px;
+    }
+
+    .title{
+        font-size: 24px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .texto-pequeno {
+        font-size: 16px;
+    }
+    
+    .container {
+        flex-direction: column;
+    }
+
+    .titulo-força, .titulo-objetivo, .titulo-missao, .titulo-visao, .titulo-valores, .number {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .texto-força, .texto-objetivo, .texto-visao,.texto-valores, .texto-missao, .texto-lista {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .stats-title {
+        font-size: 32px;
+        line-height: 1.2;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .stats-content {
+        flex-direction: column;
+    }
+
+    .description{
+        text-align: center;
+    }
+
+    .stat-item:not(:last-child)::after {
+        display: none;
+    }
+
+    .numeros {
+        align-items: center;
+    }
+
+    .stats-container {
+        text-align: center;
+    }
+
+    .stats-numbers {
+        flex-direction: column;
+    }
+
+    .stat-item {
+        align-items: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        align-items: baseline;
+        margin-bottom: 30px;
+        margin-left: -65px;
+    }
+
+    /*MENU DE HAMBURGUER*/
+
+
+}

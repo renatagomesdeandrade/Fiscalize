@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --fonte-principal: Nunito, regular;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: #fff;
+    color: #000000;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    margin-bottom: auto;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* Centraliza os links de navegação */
+}
+
+.espacamento {
+    padding-bottom: 20px;
+}
+
+header {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-height: 40px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* Centraliza o menu de navegação */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 160px;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3054a1;
+}
+
+.botao {
+    background-color: #1F284D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    transition: background-color 0.3s;
+    float: right;
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #3054A1;
+}
+
+
+.banner-podcast {
+    border-radius: 0px 0px 60px 60px;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /* Distribui os itens entre as extremidades */
+    align-items: flex-end;
+    /* Alinha os itens verticalmente no centro */
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+.Logo {
+    width: 15%;
+    padding-left: 30px;
+
+}
+
+/*UNIDADES*/
+
+.container4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title4 {
+    text-align: center;
+    color: #1F284D;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.contact-grid4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.maps-section4 {
+    background-color: #1F284D;
+    padding: 30px;
+    border-radius: 60px;
+    color: white;
+}
+
+.location-title4 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.unit-title4 {
+    font-size: 28px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.map-container4 {
+    width: 100%;
+    height: 250px;
+    background-color: #e4ebf8;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.map-container4 iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.contact-section4 {
+    padding: 20px;
+}
+
+.contact-info4 {
+    margin-bottom: 40px;
+    font-size: 24px;
+    font-family: var(--fonte-principal);
+
+}
+
+.contact-info4 h2 {
+    color: #1F284D;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-item4 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #1F284D;
+}
+
+.contact-form4 h2 {
+    color: #1F284D;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group4 {
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #1F284D;
+    border-radius: 17px;
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+    color: #8F8E8E;
+    opacity: 80%;
+    font-weight: bold;
+}
+
+.form-row4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #1F284D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3054A1;
+}
+
+.info {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: end;
+}
+
+/*RODAPE*/
+
+/*Rodapé*/
+
+.footer {
+    background-color: #fff;
+    margin-top: 50px;
+    padding: 20px 40px;
+    font-family: var(--fonte-principal);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    font-family: var(--fonte-principal);
+}
+
+.nav-menu a {
+    color: #1F284D;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    font-weight: bold;
+    color: #3054A1;
+}
+
+.contact-social {
+    align-items: center;
+    gap: 20px;
+    color: #1F284D;
+}
+
+
+.phone {
+    color: #1F284D;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    padding-top: 76px;
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 10px;
+    padding: 25px;
+    gap: 15px;
+    color: #1F284D;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+@media screen and (max-width:430px) {
+    .menu {
+        display: none;
+    }
+
+    .Logo {
+        width: 200px;
+        margin-left: -50px;
+    }
+
+    .banner-podcast {
+        height: 150px;
+    }
+
+    .title4 {
+        font-size: 32px;
+    }
+
+    .location-title4 {
+        font-size: 24px;
+    }
+
+    .unit-title4 {
+        font-size: 20px;
+
+    }
+
+    .contact-grid4 {
+        flex-direction: row;
+        grid-template-columns: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .contact-item4 p {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .info {
+        width: 40px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .phone {
+        text-align: center;
+    }
+
+}

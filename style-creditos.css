@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+    --fonte-principal: Nunito, regular;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: #e4ebf8;
+    color: #000000;
+}
+
+/*Cabeçalho*/
+
+.cabecalho {
+    margin-bottom: auto;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    /* Centraliza os links de navegação */
+}
+
+header {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    max-height: 40px;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* Centraliza o menu de navegação */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 160px;
+    align-items: center;
+}
+
+nav ul li {
+    font-size: 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3054a1;
+}
+
+.botao {
+    background-color: #1F284D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: end;
+    transition: background-color 0.3s;
+    float: right;
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.botao:hover {
+    background-color: #3054A1;
+}
+
+
+.banner-creditos {
+    border-radius: 0px 0px 60px 60px;
+    width: 100%;
+}
+
+.solucao {
+    background-color: #fff;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    /* Distribui os itens entre as extremidades */
+    align-items: flex-end;
+    /* Alinha os itens verticalmente no centro */
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+.Logo {
+    width: 15%;
+    padding-left: 30px;
+
+}
+
+.azul {
+    color: #234597;
+}
+
+/*Liquidez*/
+
+.creditos {
+    background-color: #e4ebf8;
+}
+
+.border {
+    background-color: #fff;
+    border-radius: 0 0 70px 70px;
+}
+
+/* Container principal */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+/* Título principal */
+.title {
+    text-align: center;
+    font-size: 48px;
+    color: #1F284D;
+    font-weight: bold;
+    margin-bottom: 60px;
+    font-family: var(--fonte-principal);
+}
+
+
+/* Card principal */
+.card {
+    display: flex;
+    border-radius: 24px;
+}
+
+.borda {
+    border: 2px solid #1F284D;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+/* Container da imagem */
+.image-container {
+    flex: 1;
+    min-width: 300px;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 12px;
+    margin-left: 12px;
+    margin-top: -19px;
+}
+
+/* Container do conteúdo */
+.content {
+    flex: 1;
+    padding: 80px;
+}
+
+/* Estilo do texto principal */
+.main-text {
+    font-size: 20px;
+    width: 120%;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+/* Lista de vantagens */
+.benefits-list {
+    list-style: none;
+    margin: 20px 0;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+    width: 100%;
+}
+
+.benefits-list li {
+    margin-bottom: 12px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.4;
+}
+
+.benefits-list li::before {
+    content: "•";
+    position: absolute;
+    text-align: justify;
+    left: 0;
+    color: #1F284D;
+}
+
+/*ICMS*/
+
+.ICMS {
+    background-color: #e4ebf8;
+}
+
+/* Container principal */
+.container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Seções */
+.section2 {
+    margin-bottom: 40px;
+}
+
+/* Títulos */
+.section2-title {
+    color: #234597;
+    font-size: 32px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+/* Texto normal */
+.section2-text {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: bold;
+    font-family: var(--fonte-principal);
+}
+
+
+/*FALE COM A GENTE*/
+
+.fale-com-a-gente {
+    background-color: #fff;
+    border-radius: 70px 70px 0 0;
+    margin-top: 20px;
+}
+
+/* Container principal */
+.contact-section2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Container do conteúdo */
+.content-wrapper2 {
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Área da pergunta */
+.question-area2 {
+    background-color: #1a237e;
+    padding: 30px 40px;
+    flex: 1;
+}
+
+.question-text2 {
+    color: white;
+    font-family: var(--fonte-principal);
+    font-size: 64px;
+    font-weight: bold;
+}
+
+/* Área do botão */
+.button-area2 {
+    background-color: #e4ebf8;
+    padding: 85px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo do botão */
+.contact-button2 {
+    background-color: #1F284D;
+    height: auto;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button2:hover {
+    background-color: #234597;
+}
+
+/*Rodapé*/
+
+.footer {
+    background-color: #fff;
+    padding: 20px 40px;
+    font-family: var(--fonte-principal);
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+    font-family: var(--fonte-principal);
+}
+
+.nav-menu a {
+    color: #1F284D;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    font-weight: bold;
+    color: #3054A1;
+}
+
+.contact-social {
+    align-items: center;
+    gap: 20px;
+    color: #1F284D;
+    padding-top: 50px;
+}
+
+
+.phone {
+    color: #1F284D;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+}
+
+.social-icons {
+    display: flex;
+    margin-top: 15px;
+    gap: 25px;
+    color: #1F284D;
+}
+
+.social-icons a {
+    color: #000000;
+    font-size: 20px;
+}
+
+.copyright {
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: rgb(0, 0, 0);
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width:430px) {
+    .menu {
+        display: none;
+    }
+
+    .Logo {
+        width: 200px;
+        margin-left: -50px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .image-container {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 24px;
+        text-align: center;
+        padding-left: 25px;
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+        padding-left: 35px;
+}
+
+    .content {
+        text-align: center;
+        padding-left: 45px;
+    }
+
+    .main-text {
+        font-size: 16px;
+        margin-left: 0;
+    }
+
+    .benefits-list {
+        text-align: center;
+        padding-left: 30px;
+    }
+
+    /*ICMS*/
+
+    .section2-title {
+        font-size: 24px;
+        padding-left: 0;
+    }
+
+    .section2-text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /*FALE COM A GENTE*/
+
+    .content-wrapper2 {
+        flex-direction: column;
+    }
+
+    .question-text2 {
+        font-size: 32px;
+    }
+
+    .button-area2 {
+        font-size: 16px;
+    }
+
+    .contact-button2 {
+        font-size: 29px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+}
